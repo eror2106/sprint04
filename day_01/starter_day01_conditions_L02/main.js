@@ -22,8 +22,6 @@ if (saison == "septembre" || saison == "octobre" || saison == "novembre") {
   console.log("la saison est l'hiver.");
 } else if (saison == "mai" || saison == "avril" || saison == "Mars") {
   console.log("la saison est le printemps ");
-}
-// Juin, juillet ou août, la saison est l'été
-else if (saison == " Juin" || saison == "juillet" || saison == "août") {
+} else if (saison == " Juin" || saison == "juillet" || saison == "août") {
   console.log("la saison est l'été");
 }
