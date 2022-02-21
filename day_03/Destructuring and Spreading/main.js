@@ -68,3 +68,12 @@ const users = [
   },
 ];
 //Parcourez le tableau des utilisateurs et obtenez toutes les clés de l'objet en utilisant la déstructuration.
+for (let index = 0; index < users.length; index++) {
+  console.log(Object.keys(users[index]));
+}
+//Trouvez les personnes qui ont moins de deux compétences et mettez les dans un tableau.
+for (let index = 0; index < users.length; index++) {
+  if (users[index].skills.length >= 2) {
+    console.log(users[index].skills);
+  }
+}
