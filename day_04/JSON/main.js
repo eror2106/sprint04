@@ -22,8 +22,13 @@ let json_objet = JSON.stringify(student);
 console.log(json_objet);
 //A l'aide de la fonction JSON.stringify(), stringifier l'objet student en
 //conservant uniquement les propriétés : firstName, lastName et skills.
-let json_firstname = JSON.stringify(student);
-console.log(json_firstname);
+let json = JSON.stringify({
+  firstName: student.firstName,
+  lastName: student.lastName,
+  skills: student.skills,
+});
+
+console.log(json);
 /////////------------------------------------------------------------//
 const txt = {
   Alex: {
