@@ -6,7 +6,6 @@ if (note == 0 || note <= 49) {
 } else if (note == 50 || note <= 59) {
   console.log("50-59, D");
 } else if (note == 60 || note <= 69) {
-  day = "Tuesday";
   console.log("60-69, C");
 } else if (note == 70 || note <= 79) {
   console.log("    70-89, B  ");

@@ -13,28 +13,6 @@ function addZero(i) {
 
 console.log(d.getFullYear() + "-" + month + "-" + day + "   " + h + ":" + m);
 
-// var mois = prompt("quelle mois somme nous?");
-// mois = mois.toLowerCase();
-// if (
-//   mois == "janvier" ||
-//   mois == "mars" ||
-//   mois == "mai" ||
-//   mois == "juillet" ||
-//   mois == "aout" ||
-//   mois == "octobre" ||
-//   mois == "decembre"
-// ) {
-//   console.log(mois, " a 31 jours.");
-// } else if (
-//   mois == "avril" ||
-//   mois == "juin" ||
-//   mois == "septembre" ||
-//   mois == "novemenbre"
-// ) {
-//   console.log(mois, " a 30 jours.");
-// } else {
-//   console.log(mois, " a 28 jours.");
-// }
 
 var mois = prompt("quelle mois sommes nous ? ");
 var number;
